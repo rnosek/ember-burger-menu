@@ -1,5 +1,5 @@
 import { isEmpty } from '@ember/utils';
-import { dasherize, htmlSafe } from '@ember/string';
+import { dasherize, htmlSafe } from '@ember/template';
 
 const PREFIXES = ['webkit'];
 const PREFIXED_PROPS = [
